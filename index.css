@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+  }
+
+  body{
+    background: white;
+    box-sizing: border-box;
+    color: hsl(243, 87%, 12%);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    font-family: 'Open Sans';
+    font-weight: 400;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+   
+.prime1{
+    /**background-color: #0b0c2a;**/
+    display: flex;
+}
+
+.div-one{
+    max-width: 50%;
+}
+
+
+.header{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Raleway';
+    padding-left: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.intro{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+.input-one{
+    margin-left: 1.5rem;
+    padding: 15px 60px;
+    text-align: left;
+}
+
+.file-img{
+    max-width: 80%;
+    margin-left: 6rem;
+}
+
+button{
+    padding: 12px 60px;
+    background-color: hsl(224, 93%, 58%);
+    border: 0.5px solid black;
+    color: white;
+    box-shadow: 2px 3px grey;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-size: 1.1rem;
+}
+
+button:hover{
+    background-color: hsl(240, 75%, 98%);
+    color: black;
+}
+
+.prime2{
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+}
+
+.div.three .div-four{
+    max-width: 50%;
+}
+
+.img-two{
+    max-width: 50%;
+}
+
+
+
+
+
+
+
+
+  .footer {
+    background-color: #0b0c2a;
+    color: white;
+    padding: 4rem 2rem;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-logo p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .footer-logo p img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.7rem;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
+  .footer-socials {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .footer-socials a {
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .footer-socials a:hover {
+    background-color: #6c63ff;
+    transform: scale(1.1);
+  }
+  
