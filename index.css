@@ -101,61 +101,19 @@ button:hover{
     color: black;
 }
 
-.prime2 {
+.prime2{
+    /**background-color: cyan;**/
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-color: #f8f9fa;
-    flex-direction: row; /* Ensures left-to-right layout */
-  }
-  
-  .div-three {
-    max-width: 50%;
-    font-family: Arial, sans-serif;
-  }
-  
-  .div-four {
-    max-width: 50%;
-    display: flex;
-    justify-content: flex-end; /* Pushes the image to the right */
-  }
-  
-  .img-two {
-    width: 100%;
-  }
+    flex-direction: row;
+}
 
-  .qoutes{
-    width: 100%;
-  }
-  
-  .review {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #fff;
-
-  }
-  
-  .writer {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .writer img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .div-four {
+.div-three .div-four{
     max-width: 50%;
-  }
-  
-  .img-two {
-    width: 100%;
-  }
+}
+
+.img-two{
+    max-width: 50%;
+}
 
 
 
