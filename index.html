@@ -37,41 +37,65 @@
     </div>
       </div>
 
-    <div class="prime2">
-      <div class="div-three">
-        Stay productive, wherever you are
+      <div class="prime2">
+        <img src="./images/bg-curve-desktop.svg" alt="Curve" class="curve" />
+        <div class="container">
+          <div class="text-content">
+            <h2>Stay productive, wherever you are</h2>
+            <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+            <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+            <a href="#" class="link">See how Fylo works <img src="./images/icon-arrow.svg" alt="arrow icon" /></a>
       
-        Never let location be an issue when accessing your files. Fylo has you 
-        covered for all of your file storage needs.
-          
-        Securely share files and folders with friends, family and colleagues for 
-        live collaboration. No email attachments required! <br>
-          
-        <a href="#" class="link">See how Fylo works <img src="./images/icon-arrow.svg" alt="arrow icon"></a>
-          <div class="review">
-            <img src="./images/icon-quotes.svg" alt="icon-quotes" class="quote"> <br>
-            Fylo has improved our team productivity by an order of magnitude. Since 
-        making the switch our team has become a well-oiled collaboration machine.
-        <div class="writer">
-            <img src="./images/avatar-testimonial.jpg" alt="" class="kyle">
-           <p class="name"> Kyle Burton</p>
-          <p class="position">Founder & CEO, Huddle</p>
+            <div class="review">
+              <img src="./images/icon-quotes.svg" class="quote" />
+              <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+              <div class="writer">
+                <img src="./images/avatar-testimonial.jpg" class="kyle" />
+                <div>
+                  <p class="name">Kyle Burton</p>
+                  <p class="position">Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </div>
           </div>
-       </div>
-        <div class="div-four">
-        <img src="./images/illustration-2.svg" alt="A team previewing text" class="img-two">
+          <div class="image-content">
+            <img src="./images/illustration-2.svg" class="img-two" />
+          </div>
         </div>
       </div>
-    </div>
+      
     <div class="prime3">
       <div class="div-five">
-       <p class='access'>Get early access today</p> 
+        <div class="five-one">
+           <p class='access'>Get early access today</p> 
         <p class="access-text">
-          It only takes a minute to sign up and our free starter tier is extremely generous. 
-          If you have any questions, our support team would be happy to help you.
+          It only takes a minute to sign up and our free starter tier is <br> extremely generous. 
+          If you have any questions, our support team <br> would be happy to help you.
         </p>
-        <input type="email" id="email">
-        <button> Get Started For Free</button>
+        </div>
+        <div class="five-two">
+          <input type="email" class="email" placeholder="email@example.com" id="emailInput"> <br>
+          <p id="message" style="color: red; margin-top: 10px;"></p>
+          <button onclick="validateEmail()">Get Started For Free</button>
+        </div>
+        
+        <script>
+          function validateEmail() {
+            const email = document.getElementById("emailInput").value;
+            const message = document.getElementById("message");
+            const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        
+            if (!isValid) {
+              message.textContent = "Please enter a valid email.";
+            } else {
+              message.textContent = ""; // No message if email is valid
+            }
+          }
+        </script>
+        
+        
+      
+       
       </div>
     </div>
     <div class="prime4">
@@ -103,6 +127,12 @@
             <a href="#"><img src="images/Intsa (2).svg" alt="Instagram"></a>
           </div>
         </div>
+         <div class="last">
+          <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.frontendmentor.io/profile/kingskyro64">kigskyro</a>.
+          </p>
+        </div>
       </footer>
       
     </div>
@@ -117,11 +147,6 @@
    
   </main>
 
-  <div class="last">
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://www.frontendmentor.io/profile/kingskyro64">kigskyro</a>.
-    </p>
-  </div>
+ 
 </body>
 </html>
